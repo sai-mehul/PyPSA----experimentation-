@@ -58,5 +58,5 @@ network.optimize(solver_name="highs")
 ##with our active power output (p)
 print(network.generators_t.p)
 
+##note : due to the wind anything above load 40 becomes infeasable
 
-##note : due to the wind anything above load 40 becomes infeasable 
