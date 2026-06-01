@@ -55,3 +55,5 @@ network.optimize(solver_name="highs")
 ##we will see our results via our time series function (generator_t)
 ##with our active power output (p)
 print(network.generator_t.p)
+
+
