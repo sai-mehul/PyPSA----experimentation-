@@ -53,5 +53,8 @@ network.optimize(solver_name="highs")
 
 
 ##we will see our results via our time series function (generator_t)
+
+##the output we get is wind:60 and gas be 40 which directly reffers to the contribution
+##of each element 
 ##with our active power output (p)
 print(network.generator_t.p)
